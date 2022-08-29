@@ -43,9 +43,11 @@ export default {
     },
     pic() {
       // const imageArray = [
-      //   "../public/background/yosemite.jpg",
-      //   "../public/background/goldengate.jpg", 
-      //   ''
+      //   '../public/background/yosemite.jpg',
+      //   '../public/background/goldengate.jpg', 
+      //   '../public/background/hotel.jpg', 
+      //   '../public/background/bird.jpg', 
+      //   '../public/background/blades.jpg'
       //   ];
       // document.body.style.backgroundImage = "url(" + imageArray[Math.floor(Math.random() * imageArray.length)] + ")";
     }
@@ -65,7 +67,7 @@ body {
   height: 100%;
   background: rgb(7,1,107);
   background: linear-gradient(0deg, rgba(7,1,107,1) 0%, rgba(9,9,121,1) 35%, rgba(0,169,255,1) 100%);
-  background-image: url("../public/background/goldengate.jpg");
+  background-image: url("../public/background/hotel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -102,10 +104,17 @@ h1 {
 #main_container {
   width:70%;
   margin:auto;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.7);
   border:1px solid rgba(112, 128, 144, 0.418); 
   border-radius: 10px;
   padding: 20px 40px;
   max-width:100%
+}
+#main_container a {
+  color: #2c3e50;
+  font-weight: bold;
+}
+#main_container a:hover {
+  text-decoration: none;
 }
 </style>

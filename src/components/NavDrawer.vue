@@ -4,20 +4,26 @@
         <div id="boxContain">
 
             <div id="box1">
-                <span class="navItem borderThis">
+                <span class="navItem mainNav">
                     <router-link :to="{ name : 'Home' }">Home</router-link>
                 </span>
             </div>
 
             <div id="box2">
+                <span class="navItem mainNav">
+                    <router-link :to="{ name : 'About' }">About Me</router-link>
+                </span>
+            </div>
+
+            <div id="box3">
                 <span class="navTitle"><strong>Projects: </strong></span>
-                <span class="navItem">
+                <span class="navItem projectNav">
                     <router-link :to="{ name : 'vending_machine' }">Vending Machine</router-link>
                 </span>
-                <span class="navItem borderThis">
+                <span class="navItem projectNav">
                     <router-link :to="{ name : 'tenmo' }">TEnmo</router-link>
                 </span>
-                <span class="navItem">
+                <span class="navItem projectNav">
                     <router-link :to="{ name : 'med_scheduling' }">Medical Scheduling</router-link>
                 </span>
             </div>
@@ -58,13 +64,21 @@ export default {
     width:70%;
     margin:auto;
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 100px 120px 1fr;
     gap:15px;
 }
 .navItem {
     display:inline-block;
+    text-align: center;
     vertical-align: middle;
     height:90px;
+}
+.mainNav {
+    width:100%;
+}
+.projectNav {
+    
+    padding:0 20px;
 }
 /* .borderThis {
     border-left: 1px solid rgb(210, 210, 210);
@@ -74,10 +88,11 @@ export default {
     height:100%;
 }
 .navItem a {
-    display:block;
+    display:inline-block;
     color:rgb(85, 85, 85);
     text-decoration: none;
-    padding:33px 20px;
+    line-height: 20px;
+    padding:33px 0;
     margin:auto;
     width:100%;
     height:50px;
@@ -87,5 +102,8 @@ export default {
 }
 .navItem:hover {
     background-color: rgba(224, 224, 224, 0.8);
+}
+#box3 {
+    margin-left:20px;
 }
 </style>

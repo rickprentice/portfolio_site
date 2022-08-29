@@ -1,5 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
+import About from "@/views/About.vue";
 import VendingMachine from "@/views/VendingMachine.vue";
 import TEnmo from "@/views/TEnmo.vue";
 import MedScheduling from "@/views/MedScheduling.vue";
@@ -9,6 +10,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About,
   },
   {
     path: "/vendingMachine",

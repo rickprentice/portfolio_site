@@ -59,7 +59,6 @@ p {
 .projectImage {
     max-width:100%;
     height:auto;
-    margin-bottom:30px;
 }
 label {
     font-style: italic;
