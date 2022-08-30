@@ -8,7 +8,7 @@
     <img src="../public/navLines.png" id="navLines">
   </a>
 
-  <h1>rickprentice.com</h1>
+  <h1 id="headTitle">rickprentice.com</h1>
   <div id="main_container">
     <router-view />
 
@@ -94,7 +94,7 @@ body {
 #navLines {
     width: 40px;
 }
-h1 {
+#headTitle {
   color:rgba(255, 255, 255, 0.8);
   text-shadow: 2px 2px rgba(77, 77, 77, 0.8);
   width:70%;
