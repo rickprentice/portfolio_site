@@ -5,8 +5,8 @@
         the functionality requested in Java in less than a week. It reads from a text file that contains the 
         item name, slot number, cost, and item type (see image below), and every item is auto assigned
         an availability of 5 at app start. The program will allow you to feed "money" into it in whole dollar increments,
-        view inventory, make a purchase, and dispense change. It would also keep track of the inventory until the application
-        was reset and log every transaction to a file.
+        view inventory, make a purchase, and dispense change. It also keeps track of the inventory until the application
+        is reset and logs every transaction to a file.
     </p>
     <label>Text File Format</label>
     <img src="../../public/project_images/vending_machine/textFile.png" alt="" class="projectImage" />
