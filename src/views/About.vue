@@ -16,24 +16,36 @@
   
   <h3>Social Media</h3>
   <div id="socialMediaButtons">
-  <div class="mediaLinks"><a href="">
+  <div class="mediaLinks"><a href="https://www.linkedin.com/in/rick-prentice/">
     <img src="../../public/logos/linkedIn.png" alt="" />LinkedIn
   </a></div>
   
-  <div class="mediaLinks"><a href="">
+  <div class="mediaLinks"><a href="https://www.facebook.com/rick.prentice">
     <img src="../../public/logos/facebook.png" alt="" />Facebook
   </a></div>
   
-  <p class="mediaLinks"><a href="">
+  <p class="mediaLinks"><a href="https://github.com/rickprentice">
     <img src="../../public/logos/github.png" alt="" />GitHub
   </a></p>
   
-  <div class="mediaLinks"><a href="">
+  <div class="mediaLinks"><a :href="`${publicPath}resume.pdf`" download="richard_prentice_resume.pdf">
     <img src="../../public/logos/pdf.png" alt="" />Download Resume
   </a></div>
 
   </div>
 </template>
+
+<script>
+
+export default {
+  data () {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  }
+}
+</script>
+
 
 <style scoped>
 #socialMediaButtons {

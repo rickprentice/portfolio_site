@@ -25,7 +25,8 @@ export default {
   },
   data() {
     return {
-      isShown: true
+      isShown: true,
+      publicPath: process.env.BASE_URL
     }
   },
   methods: {
@@ -42,14 +43,14 @@ export default {
       }
     },
     pic() {
-      // const imageArray = [
-      //   '../public/background/yosemite.jpg',
-      //   '../public/background/goldengate.jpg', 
-      //   '../public/background/hotel.jpg', 
-      //   '../public/background/bird.jpg', 
-      //   '../public/background/blades.jpg'
-      //   ];
-      // document.body.style.backgroundImage = "url(" + imageArray[Math.floor(Math.random() * imageArray.length)] + ")";
+      const imageArray = [
+        `${this.publicPath}background/yosemite.jpg`,
+        `${this.publicPath}background/goldengate.jpg`, 
+        `${this.publicPath}background/hotel.jpg`, 
+        `${this.publicPath}background/bird.jpg`, 
+        `${this.publicPath}background/blades.jpg`
+        ];
+      document.body.style.backgroundImage = "url(" + imageArray[Math.floor(Math.random() * imageArray.length)] + ")";
     }
   },
   created() {
@@ -67,7 +68,7 @@ body {
   height: 100%;
   background: rgb(7,1,107);
   background: linear-gradient(0deg, rgba(7,1,107,1) 0%, rgba(9,9,121,1) 35%, rgba(0,169,255,1) 100%);
-  background-image: url("../public/background/hotel.jpg");
+  /* background-image: url("../public/background/hotel.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
