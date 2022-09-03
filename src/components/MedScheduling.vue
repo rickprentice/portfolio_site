@@ -53,13 +53,14 @@
         <p>
             We did utilize a calendar plug-in for Vue called v-calendar that was very helpful to eliminate the selectability
             of dates based on the doctors schedule. The overall design was based on a few stylesheet templates we found online, 
-            but we ended up just using those for inspiration and coded it all by hand. Our teammate, Joy, created the logos and
+            but we ended up just using those for inspiration and coded it all by hand. Our teammate created the logos and
             graphics we used in the header and sidebar. I would like to revisit some of the design elements and change some of 
-            the color choices, which I may still do, but with my focus primarily on the function of the front, our team delegated 
-            this work primarily to one member and made major decisions on design to team feedback.
+            the color choices, which I may still do. With my focus primarily on the functions of the front, our team delegated 
+            this work primarily to one member but made major decisions on design based as a team.
         </p>
         <label>Full Page Application Screenshot</label>
         <img src="../../public/project_images/med_schedule/homePageFull.png" alt="" />
+
     </div>
 </template>
 

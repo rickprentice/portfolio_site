@@ -19,7 +19,18 @@
             to contain more data to fulfill functional requirements. Spending more time on the data design of this app 
             would have been helpful, but was a lesson that I have carried forward to other projects. 
         </p>
-
+        <p>
+        The software and languages that I learned to use for this project are:
+        <ul>
+            <li>Java 11</li>
+            <li>Spring Boot framework</li>
+            <li>RESTful APIs</li>
+            <li>IntelliJ IDEA CE</li>
+            <li>PostgreSQL</li>
+            <li>DBVisualizer</li>
+            <li>Postman</li>
+        </ul>
+    </p>
 
     </div>
 </template>

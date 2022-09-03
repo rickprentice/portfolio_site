@@ -14,7 +14,7 @@
   </p>
   <p>Thanks for reading!</p>
   
-  <h3>Social Media</h3>
+  <h3>Connect With Me</h3>
   <div id="socialMediaButtons">
   <div class="mediaLinks"><a href="https://www.linkedin.com/in/rick-prentice/">
     <img src="../../public/logos/linkedIn.png" alt="" />LinkedIn
@@ -74,5 +74,6 @@ export default {
 }
 p {
   width:70%;
+  text-align: justify;
 }
 </style>

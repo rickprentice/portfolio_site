@@ -11,8 +11,8 @@
   <h1 id="headTitle">rickprentice.com</h1>
   <div id="main_container">
     <router-view />
-
   </div>
+  <span id="empty"></span>
 </template>
 
 <script>
@@ -109,7 +109,7 @@ body {
   border:1px solid rgba(112, 128, 144, 0.418); 
   border-radius: 10px;
   padding: 20px 40px;
-  max-width:100%
+  max-width:100%;
 }
 #main_container a {
   color: #2c3e50;
@@ -117,5 +117,9 @@ body {
 }
 #main_container a:hover {
   text-decoration: none;
+}
+#empty {
+  height:40px;
+  display: block;
 }
 </style>
