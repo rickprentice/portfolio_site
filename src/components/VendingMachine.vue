@@ -62,5 +62,6 @@ p {
 }
 label {
     font-style: italic;
+    font-size: 12px;
 }
 </style>
