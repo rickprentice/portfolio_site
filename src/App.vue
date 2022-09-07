@@ -10,7 +10,9 @@
 
   <h1 id="headTitle">rickprentice.com</h1>
   <div id="main_container">
-    <router-view />
+    <div id="main_content">
+      <router-view />
+    </div>
   </div>
   <span id="empty"></span>
 </template>
@@ -118,8 +120,18 @@ body {
 #main_container a:hover {
   text-decoration: none;
 }
+#main_content {
+  width:75%;
+}
 #empty {
   height:40px;
   display: block;
 }
+
+@media only screen and (max-width: 800px) {
+    #main_content {
+        width:100%;
+      }
+}
+
 </style>

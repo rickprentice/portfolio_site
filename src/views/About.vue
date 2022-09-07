@@ -10,7 +10,7 @@
   </p>
   <p>I have added links to my social media pages below, as well as a copy of my current resume. Please reach 
     out to me in any way you wish. I am always open to new learning opportunities and to connect with more 
-    people as I grow and develop towards this new career path.
+    people as I grow and develop within this new career path.
   </p>
   <p>Thanks for reading!</p>
   
@@ -48,9 +48,6 @@ export default {
 
 
 <style scoped>
-#socialMediaButtons {
-  width:70%;
-}
 .mediaLinks {
   display: inline-block;
   margin: 10px;
@@ -73,7 +70,6 @@ export default {
   vertical-align: middle;
 }
 p {
-  width:70%;
   text-align: justify;
 }
 </style>

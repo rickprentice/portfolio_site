@@ -106,4 +106,50 @@ export default {
 #box3 {
     margin-left:20px;
 }
+
+@media only screen and (max-width: 800px) {
+    .closeDrawer {
+        transform: translateY(-330px);
+    }
+    #boxContain {
+        width:70%;
+        margin:auto;
+        display:block;
+    }
+    .navItem {
+        display:block;
+        text-align: center;
+        height:40px;
+        border-bottom:1px solid rgba(115, 115, 115, 0.5);
+        padding:10px 0;
+    }
+    .mainNav {
+        width:100%;
+    }
+    .projectNav {
+        padding:10px 20px;
+    }
+    .navTitle {
+        height:100%;
+        display:block;
+        text-align: center;
+        border-bottom:1px solid rgba(115, 115, 115, 0.5);
+    }
+    #box3 .navItem:last-of-type {
+        border:none;
+    } 
+    .navItem a {
+        color:rgb(85, 85, 85);
+        text-decoration: none;
+        line-height: 20px;
+        padding:10px 0;
+        margin:auto;
+        width:100%;
+        height: 100%;
+    }
+    #box3 {
+        margin-left:0px;
+    }
+}
+
 </style>

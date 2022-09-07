@@ -1,8 +1,7 @@
 <template>
-    <div id="main">
         <h2>Medical Scheduling</h2>
-        <p>The final capstone project, for the bootcamp I attended, was to create a scheduling application that
-            doctors and patients could use to book and manage their appointments. Patients could leave reviews 
+        <p>The final capstone project for the Bootcamp I attended was to create a scheduling application that
+            doctors and patients use to book and manage their appointments. Patients could leave reviews 
             for doctors, and doctors could reply. The app also had registering and login capabilities. In the 
             current version, doctors have the ability to edit the information of the office they belong to, and
             switch which office they belong to themselves. However, I agree that an admin role should have been
@@ -16,10 +15,10 @@
         </p>
         <label>Register a new user</label>
         <img src="../../public/project_images/med_schedule/register.png" alt="" />
-        <p>There were either of two roles established upon registering for the application. The frontend would 
+        <p>There was one of two roles established upon registering for the application. The frontend would 
             check these roles and display the according navigation links in the sidebar. Below you will be able 
-            to see the difference between the appointments screens for each role. The doctor's were also notified
-            with any new appointments with bolder styles for those rows. Once it was marked as seen, the style would
+            to see the difference between the appointments screens for each role. The doctors were also notified
+            about any new appointments with bolder styles for those rows. Once it was marked as seen, the style would
             drop off.
         </p>
         <label>Patient's appointments</label>
@@ -34,14 +33,14 @@
         <label>Doctor setting their availability</label>
         <img src="../../public/project_images/med_schedule/doctorAvail.png" alt="" />
         <p>One of the main required functions was booking an appointment. This was the first piece that I built for the front-end,
-            as I assumed it would be the most complicated and was the primary function of the application. (<span class="curly">
-            I will take a moment to admit that aside from the CSS, the entirety of the front-end code was done myself. My 
+            as I assumed it would be the most complicated being the primary function of the application. (<span class="curly">I
+            will take a moment to admit that aside from the CSS, the entirety of the front-end code was done myself. My 
             team was extremely thrilled to have me take the lead here, as they were back-end or data focused. I used this 
             opportunity to stand out and make sure it was completed on time, and educated my team on some of the areas they struggled
             with in regards to Vue, vanilla Javascript, CSS and HTML forms.</span>)
         </p>
         <p>The form itself requires users to select the options in order, and will prevent them from skipping any options. For instance,
-            they will not be able to select a doctor until they select an office. Or they cannot see available day or times until they 
+            they will not be able to select a doctor until they select an office. Additionally they cannot see available days or times until they 
             pick the doctor. The availability is pulled dynamically from the database and will eliminate days or times if the doctor has
             not set their schedule for that day, or already has an appointment scheduled for that date and time. The only optional piece
             is the final textbox for the "Purpose of Visit".
@@ -60,8 +59,25 @@
         </p>
         <label>Full Page Application Screenshot</label>
         <img src="../../public/project_images/med_schedule/homePageFull.png" alt="" />
+        <p>
 
-    </div>
+        </p>
+        <p>
+        The software and languages that I learned to use for this project are:
+        <ul>
+            <li>Java 11</li>
+            <li>Spring Boot framework</li>
+            <li>RESTful APIs</li>
+            <li>IntelliJ IDEA CE</li>
+            <li>PostgreSQL</li>
+            <li>DBVisualizer</li>
+            <li>Postman</li>
+            <li>Vue.js</li>
+            <li>HTML/CSS</li>
+            <li>Visual Studio Code</li>
+            <li>Shout-out to Chrome's built in developer tools and the Vue developer tools extensions</li>
+        </ul>
+        </p>
 </template>
 
 <style scoped>

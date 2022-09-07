@@ -23,13 +23,12 @@
     </p>
     <p>
         My main focus for improvement was that the original attempt was not object oriented in certain areas. Especially
-        in the "Bank" class that I felt we rushed to finish as to make the assignment deadline. As shown below 
-        there were a couple of functions where we recreated the entire inventory just to gain access to an items
-        price. 
+        in the "Bank" class that I felt we rushed to finish as to make the assignment deadline. As shown below, 
+        there were a couple of functions where we recreated the entire inventory to gain access to an items price. 
     </p>
     <label>Recreated inventory multiple times within the Bank class</label>
     <img src="../../public/project_images/vending_machine/bankClassProblems.png" alt="" class="projectImage" />
-    <p>I realized that we already had access to the price we needed by an already existing method in the inventory
+    <p>I realized that we had access to the price we needed by an already existing method in the inventory
         class. This allowed me to shorten the work of the function to only Bank related abilities. I also removed
         the check for available funds method, as it was unnecessary based on where it was being used. You can see the 
         update in the screenshot below. Being able to simplify the code, in this case, helps readability.
